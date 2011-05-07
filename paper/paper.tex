@@ -1,5 +1,5 @@
 \documentclass{article}
-
+\usepackage{booktabs}
 % required includes
 \usepackage{graphicx}
 \usepackage{url}
@@ -294,11 +294,25 @@ through this decision list before sending them to the SRDA learning algorithm.
 \subsection{Other choices}
 Since the system was taking too long to run we made several choices in order
 to get meaningful results on which to report on. We decided to specifically analyze
-the "Where" questions since there were 28 of them, which seemed like an appropriate
-amount which to train on.
+the ``Where'' questions since there were 28 of them, which seemed like an appropriate
+amount to train on. We ran into some prombles with some of these questions, so we
+actually only used 24 of these questions. 
 
 \section{Results}
-
+\begin{table}
+\begin{tabular}{lcc}
+%\toprule
+\cmidrule{2-3}
+                     & Number correct & Mean recipricol rank\\
+\cmidrule{2-3}
+Punctuation location &                &                     \\
+Novelty factor       &                &                     \\
+Both                 &                &                     \\
+\cmidrule{2-3}
+%\bottomrule
+\end{tabular}
+%\caption{\label{tab:results}Results of our system on ``Where''-type questions. 
+\end{table}
 % we need:
 % the output file of answers produced by our system for the questions
 % from the development corpus

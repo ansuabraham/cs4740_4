@@ -32,5 +32,5 @@ def main():
   return answer_type(read_questions.read_questions_answers())
 
 if __name__ == "__main__":
-  print get_question_types()
-  print classify_questions()
+#  print get_question_types()
+  print classify_questions()['Where']

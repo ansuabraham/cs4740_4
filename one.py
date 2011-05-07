@@ -87,24 +87,25 @@ def writeAnswers(stuff,filename='tmp-answers.txt'):
 
 def main():
     align.load_cache()
-    foo=map(int,question_type.classify_questions(1)['Where'])
-    trainIDs=foo[:-3]
-    validationIDs=foo[-3:]
-#    print trainIDs
-#    trainIDs=range(201,220)
-#    validationIDs=range(339,339)
-#    testIDs=range(338,338)
+    #foo=map(int,question_type.classify_questions(1)['Where'])
+    #Where questions
+    foo=[202, 211, 223, 226, 227, 243, 245, 249, 258, 266, 272, 283, 304, 306, 317, 318, 356, 359, 368, 369, 373, 385, 393]
+    evaluatorCombinationID=9000
+#    trainIDs=foo[:-6]
+#    validationIDs=foo[-6:]
+    trainIDs=foo
+    validationIDs=[10025,10026]
+
     evaluator_combinations=[
-#    [],
-#     [seq_length,
-    [punc_loc]
-#     bag_of_words,
-#     novelty_bool]
-#    [pos_test]
-#    [seq_length,punc_loc,question_apposition,rewrite_apposition,pos_test,vector_bag,bag_of_words,novelty_bool] #,novelty_count]
-#    [novelty_count]
+    [punc_loc,novelty_bool],
+    [punc_loc],
+    [novelty_bool]
+
+#Don't use because they're weird
+#    vector_bag,
+#     [seq_length]
+#    [punc_loc]
     ]
-    evaluatorCombinationID=1
     for evaluators in evaluator_combinations:
         y_train,x_train = question_learning_data(evaluators,trainIDs)
 #        print y_train
