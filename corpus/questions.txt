@@ -1988,3 +1988,382 @@ What is the exchange rate between England and the U.S.?
 </top>
 
 
+
+<top>
+
+<num> Number: 10000 
+
+<desc> Description:
+What date in 1989 did East Germany open the Berlin Wall?
+
+</top>
+
+
+<top>
+
+<num> Number: 10001 
+
+<desc> Description:
+Who was Johnny Mathis' high school track coach?
+
+</top>
+
+
+<top>
+
+<num> Number: 10002 
+
+<desc> Description:
+What is the shape of a porpoises' tooth?
+
+</top>
+
+
+<top>
+
+<num> Number: 10003 
+
+<desc> Description:
+What is the number of buffaloes thought to have been living in North America when Columbus landed in 1492?
+
+</top>
+
+
+<top>
+
+<num> Number: 10004 
+
+<desc> Description:
+The Faroes are a part of what northern European country?
+
+</top>
+
+
+<top>
+
+<num> Number: 10005 
+
+<desc> Description:
+The symptoms of Parkinson's disease are linked to the demise of cells in what area of the brain?
+
+</top>
+
+
+<top>
+
+<num> Number: 10006 
+
+<desc> Description:
+What is the date of the Chelsea flower show?
+
+</top>
+
+
+<top>
+
+<num> Number: 10007 
+
+<desc> Description:
+What hotel was used for a setting of the Agatha Christie novel, "And Then There Were None"?
+
+</top>
+
+
+<top>
+
+<num> Number: 10008  
+
+<desc> Description:
+What year was the Magna Carta signed?
+
+</top>
+
+
+<top>
+
+<num> Number: 10009 
+
+<desc> Description:
+Who was Lincoln's Secretary of State?
+
+</top>
+
+
+<top>
+
+<num> Number: 10010 
+
+<desc> Description:
+How long does it take to fly from Paris to New York in a Concorde?
+
+</top>
+
+
+<top>
+
+<num> Number: 10011 
+
+<desc> Description:
+How many lives were lost in the Pan Am crash in Lockerbie, Scotland?
+
+</top>
+
+
+<top>
+
+<num> Number: 10012 
+
+<desc> Description:
+What is the world's population?
+
+</top>
+
+
+<top>
+
+<num> Number: 10013 
+
+<desc> Description:
+Which country has the largest part of the Amazon rain forest?
+
+</top>
+
+
+<top>
+
+<num> Number: 10014 
+
+<desc> Description:
+Which atlantic hurricane had the highest recorded wind speeds?
+
+</top>
+
+
+<top>
+
+<num> Number: 10015
+
+<desc> Description:
+How long does it take to travel from London to Paris via the Chunnel?
+
+</top>
+
+
+<top>
+
+<num> Number: 10016
+
+<desc> Description:
+Who created the board game Pictionary?
+
+</top>
+
+
+<top>
+
+<num> Number: 10017
+
+<desc> Description:
+How long is the Appalachian Trail?
+
+</top>
+
+
+<top>
+
+<num> Number: 10018
+
+<desc> Description:
+What was Malcolm X's original surname?
+
+</top>
+
+
+<top>
+
+<num> Number: 10019
+
+<desc> Description:
+What is the world record time for running one mile while juggling?
+
+</top>
+
+
+<top>
+
+<num> Number: 10020
+
+<desc> Description:
+What is the capital of the United States?
+
+</top>
+
+
+<top>
+
+<num> Number: 10021
+
+<desc> Description:
+How tall is the Statue of Liberty?
+
+</top>
+
+
+<top>
+
+<num> Number: 10022
+
+<desc> Description:
+What is the capital of Uganda?
+
+</top>
+
+
+<top>
+
+<num> Number: 10023
+
+<desc> Description:
+What is the capital of Wisconsin?
+
+</top>
+
+
+<top>
+
+<num> Number: 10024
+
+<desc> Description:
+What is the capital of Michigan?
+
+</top>
+
+
+<top>
+
+<num> Number: 10025
+
+<desc> Description:
+Where is Bolivia?
+
+</top>
+
+
+<top>
+
+<num> Number: 10026
+
+<desc> Description:
+Where is Chicago?
+
+</top>
+
+
+<top>
+
+<num> Number: 10027
+
+<desc> Description:
+What two companies produce bovine somatotrophin?
+
+</top>
+
+
+<top>
+
+<num> Number: 10028
+
+<desc> Description:
+Who was the first person to set foot on the moon?
+
+</top>
+
+
+<top>
+
+<num> Number: 10029
+
+<desc> Description:
+When were the first free elections held in the new Republic of Hungary?
+
+</top>
+
+
+<top>
+
+<num> Number: 10030
+
+<desc> Description:
+What is the date of the official opening of the channel tunnel between the U.K. and France?
+
+</top>
+
+
+<top>
+
+<num> Number: 10031
+
+<desc> Description:
+When did Nelson Mandela become President of South Africa?
+
+</top>
+
+
+<top>
+
+<num> Number: 10032
+
+<desc> Description:
+Who was President of Turkmenistan in 1994?
+
+</top>
+
+
+<top>
+
+<num> Number: 10033
+
+<desc> Description:
+Who is the composer of Eugene Onegin?
+
+</top>
+
+
+<top>
+
+<num> Number: 10034
+
+<desc> Description:
+When will the Voyagers lose contact with Earth?
+
+</top>
+
+
+<top>
+
+<num> Number: 10035
+
+<desc> Description:
+What is the name of the foreign marine pest infesting the Great Lakes and associated waterways since 1986?
+
+</top>
+
+
+<top>
+
+<num> Number: 10036
+
+<desc> Description:
+Who is the CEO of General Electric?
+
+</top>
+
+
+<top>
+
+<num> Number: 10037
+
+<desc> Description:
+How tall is the Eiffel Tower?
+
+</top>
