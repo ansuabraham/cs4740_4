@@ -347,34 +347,6 @@ This represent a total bare-bones approach with essentially no hope of getting a
 question right.
 
 \subsection{Walk through of one question}
-Chicago
-zero
-a week
-the mercury
-Chicago's two futures exchanges
-Laurie Morse
-Chicago
-The longer hours
-which
-effect
-November 1
-its original name
-the Chicago Stock Exchange
-July 8
-Members
-the change
-First Chicago Bank
-Bank
-China
-the Bank
-China
-First Chicago Capital Markets
-more
-60 foreign visitors
-Chicago
-the World Cup soccer tournament
-Airport officials
-Wire Reports SEC P
 
 \begin{itemize}
 \item Initial setup of the Q/A system
@@ -385,16 +357,18 @@ Wire Reports SEC P
     \end{itemize}
 \item We are given a question id
     \begin{itemize}
-    \item 10025
+    \item 10026
     \end{itemize}
 \item We retrieve the question text from the provided input file
     \begin{itemize}
-    \item "Where is Bolivia?"
+    \item "Where is Chicago?"
     \end{itemize}
 \item We read the chunker results 
     \begin{itemize}
     \item We filter out all candidate answers that are not noun phrases
     \item We also filter out candidate answers not within 50 bytes of the aligned question in the document
+    \item For example, the question above gives us phrases like, Chicago", "Chicago's two futures exchanges"
+    \item "the Chicago Stock Exchange"
     \end{itemize}
 \item We feed the filtered answers through our answer evaluators specifically
     \begin{itemize}
@@ -409,6 +383,7 @@ Wire Reports SEC P
     \end{itemize}
 \item Sort by confidence measure 
 \item In descending order by confidence measure, pack them into 50-byte answers which are our final outputs
+\item For example, answers are like "Chicago "Still the project decades", "CHICAGO A FLOOD" etc
 \item The answers are then passed into our scorer
 \end{itemize}
 
